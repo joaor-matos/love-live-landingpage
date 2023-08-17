@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    
+}
+
+.logo {
+    position: absolute;
+    size: 0px;
+
+    
+}
+
+.header_items {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.img_clube {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.tirinha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tirinha_cor {
+    flex: auto; 
+    height: 1pc; 
+    width: fit-content;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row1 {
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.apresentacao__ayumu {
+    border-radius: 15px;
+    background-color: #F0939E;
+}
