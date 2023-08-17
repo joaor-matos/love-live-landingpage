@@ -1,29 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-/* header {
-    background-image: url("./source/clube.png");
-    background-size: cover;
-    
-} */
-
-.logo {
-    position: absolute;
-    size: 0px;
-
-    
-}
-
-.header_items {
-    /* display: flex;
-    flex-direction: row; */
+header {
     background-image: url('./source/clube.png');
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 70vh;
+    height: auto;
+    
+} 
+
+.header__logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    height: 30vh;
+}
+
+.header__polaroid {
+    width: 40vh;
+    height: 40vh;
+    background-color: white;
+    transform: rotate(6deg);
+    padding: 1%;
+    padding-bottom: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.header_items {
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    justify-content: space-around;
 }
 
 .img_clube {
@@ -44,27 +57,124 @@
 }
 
 .apresentacao {
-    margin: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
-.row1 {
-    margin-right: 5%;
+.apresentacao__amarelo{
+    background-color: #F39800;
+    transform: rotate(4deg);
+    padding: 0.5%;
+    padding-right: 1.2%;
+
+}
+
+.apresentacao__nijigasaki {
+    height: auto;
+    width: 100%;
+    transform: rotate(-4deg);
+    padding: 1%;
+    background-color: #E4007F;
+}
+
+.apresentacao__texto {
+    font-family: 'Farro', sans-serif;
+    font-size: 1vmin;
+    font-size: 1.2vmax;
     margin-left: 5%;
+    color: #B5006C;
+}
+
+.conheca {
+    font-family: 'Farro', sans-serif;
+    color: #B5006C;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 5%;
+}
+
+.conheca__texto {
+    font-family: 'Farro', sans-serif;
+    color: #B5006C;
+    text-decoration: underline;
+    
+}
+
+.row {
+    margin-top: 5vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    align-self: center;
 }
 
-.apresentacao__ayumu {
+.apresentacao__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin: 5vh;
+}
+
+.apresentacao__container__idol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.apresentacao__box {
     border-radius: 15px;
-    background-color: #F0939E;
 }
 
-.apresentacao__ayumu__pic{
-    margin-bottom: -4px;
+.apresentacao__pic{
+    margin-bottom: -5px;
+}
+
+.form__bg{
+    background-image: url('./source/stage.png');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Farro', sans-serif;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__caixa{
+    background-color: #FFB4C4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80vh;
+    height: 50vh;
+    align-self: center;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form__caixa__enunciado {
+    color: #FFF3FA;
+    font-size: 4vh;
+    justify-content: center;
+    padding: 4%;
+}
+
+.form__caixa__input {
+
 }
 
 .bg{
@@ -72,6 +182,20 @@
 }
 
 .contato{
-    background: radial-gradient(#FFB0C3, #FFBECE);
+    background: radial-gradient(#FF9AB2, #FFE5EC);
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    align-items: center;
+    font-family: 'Farro', sans-serif;
+    color: #B5006C;
+}
 
+strong {
+    color: #CE579B;
+}
+
+.contato__logo{
+    height: auto;
+    width: 20%;
 }
