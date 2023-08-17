@@ -3,10 +3,11 @@
     padding: 0;
 }
 
-header {
-    position: relative;
+/* header {
+    background-image: url("./source/clube.png");
+    background-size: cover;
     
-}
+} */
 
 .logo {
     position: absolute;
@@ -16,10 +17,13 @@ header {
 }
 
 .header_items {
-    display: flex;
-    flex-direction: row;
-    
-    
+    /* display: flex;
+    flex-direction: row; */
+    background-image: url('./source/clube.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
 }
 
 .img_clube {
@@ -57,4 +61,17 @@ header {
 .apresentacao__ayumu {
     border-radius: 15px;
     background-color: #F0939E;
+}
+
+.apresentacao__ayumu__pic{
+    margin-bottom: -4px;
+}
+
+.bg{
+    width: 100%;
+}
+
+.contato{
+    background: radial-gradient(#FFB0C3, #FFBECE);
+
 }
